@@ -34,6 +34,9 @@ Plugin 'Tagbar'
 " The NERD tree : A tree explorer plugin for navigating the filesystem 
 Plugin 'scrooloose/nerdtree'
 
+" The NERD Commenter : Vim plugin for intensely orgasmic commenting
+Plugin 'scrooloose/nerdcommenter'
+
 " jellybeans : A colorful, dark color scheme for Vim
 Plugin 'nanotech/jellybeans.vim'
 
