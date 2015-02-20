@@ -89,6 +89,14 @@ flags = [
 '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1',
 '-isystem',
 '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include',
+'-I'
+'/camma/libs/opencv-2.4.8/include',
+'-I',
+'/home/ozan/camma/code/projects/cpp/libs/decisionTrees/include',
+'-I',
+'/home/ozan/camma/code/projects/cpp/libs/protobufAux/include',
+'-I',
+'/home/ozan/camma/code/projects/cpp/xaware/actionClassificationRF/include',
 ]
 
 
