@@ -49,6 +49,9 @@ Plugin 'DoxygenToolkit.vim'
 " Extended session manager for Vim(:mksession on streoids)
 Plugin 'xolox/vim-session'
 
+" Misc extensions needed for vim-session plugin - dependency
+Plugin 'xolox/vim-misc'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -92,4 +95,6 @@ set showmatch
 set comments=sl:/*,mb:\ *,elx:\ */
 " DoxygenToolkit Author Name
 let g:DoxygenToolkit_authorName="Emre Ozan Alkan <emreozanalkan@gmail.com>"
+" vim-session plugin: autosaving global session default
+let g:session_autoload = 'no'
 
