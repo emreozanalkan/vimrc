@@ -34,6 +34,9 @@ Plugin 'Tagbar'
 " The NERD tree : A tree explorer plugin for navigating the filesystem 
 Plugin 'scrooloose/nerdtree'
 
+" A modern side panel for Vim, build upon the NERD Tree
+Plugin 'mihaifm/vimpanel'
+
 " The NERD Commenter : Vim plugin for intensely orgasmic commenting
 Plugin 'scrooloose/nerdcommenter'
 
@@ -42,6 +45,9 @@ Plugin 'nanotech/jellybeans.vim'
 
 " Simplify Doxygen documentation in C, C++, Python. 
 Plugin 'DoxygenToolkit.vim'
+
+" Extended session manager for Vim(:mksession on streoids)
+Plugin 'xolox/vim-session'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
