@@ -13,6 +13,9 @@ Plugin 'gmarik/Vundle.vim'
 " CTRLP : Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'kien/ctrlp.vim'
 
+" CTRLP : ctrlp.vim extension - Navigate and jump to function defs
+Plugin 'tacahiroy/ctrlp-funky'
+
 " FUGITIVE : Git wrapper so awesome
 Plugin 'fugitive.vim'
 
@@ -74,6 +77,8 @@ syntax on
 set t_Co=256
 " You Complete Me Configuration File
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_autoclose_preview_window_after_insertion = 1
+"let g:ycm_autoclose_preview_window_after_completion = 1
 " JellyBeans color scheme
 colorscheme jellybeans
 " colorscheme wombat256i "https://raw.githubusercontent.com/dsolstad/vim-wombat256i/master/colors/wombat256i.vim
@@ -95,6 +100,9 @@ set showmatch
 set comments=sl:/*,mb:\ *,elx:\ */
 " DoxygenToolkit Author Name
 let g:DoxygenToolkit_authorName="Emre Ozan Alkan <emreozanalkan@gmail.com>"
+let g:DoxygenToolkit_commentType = "C++"
+" Doxygen key map: F12 will directly put Doxygen comment
+nmap <F12> :Dox<CR>
 " vim-session plugin: autosaving global session default
 let g:session_autoload = 'no'
 

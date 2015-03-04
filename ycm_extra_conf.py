@@ -96,7 +96,9 @@ flags = [
 '-I',
 '/home/ozan/camma/code/projects/cpp/libs/protobufAux/include',
 '-I',
-'/home/ozan/camma/code/projects/cpp/xaware/actionClassificationRF/include',
+'/home/ozan/camma/code/projects/cpp/xaware/interns/emre/classificationRF/include',
+'-I',
+'/home/ozan/camma/code/projects/cpp/xaware/interns/emre/classificationRF/protobuf',
 ]
 
 
